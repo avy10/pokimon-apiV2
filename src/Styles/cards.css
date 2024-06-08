@@ -1,0 +1,68 @@
+.cardContainer{
+	display : flex;
+	flex-wrap : wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+.card:hover{
+	transform: scale(1.05);
+	transition: transform 0.6s ease-in-out;
+}
+.hidden{
+	display: none;
+}
+.card{
+	width : 240px;
+	text-align: center;
+	height: 400px;
+	/* border: 2px solid aqua; */
+	border-radius: 5px;
+	margin :15px;
+	padding: 10px 5px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: black;
+	/* transform: scale(1); */
+	transition: transform 0.4s ease-in-out;
+}
+.card div, .card p{
+	padding: 5px;
+	margin: 2px;
+	
+	/* border: 1px solid black; */
+}
+
+.card h1{
+	padding: 5px;
+	margin: 5px;
+	text-transform: capitalize;
+	text-decoration: underline 2px solid black;
+}
+.card p{
+	margin-bottom : 5px;
+	font-size: 1.25rem;
+}
+
+.pokeImage{
+	height: 200px;
+	width : 220px;
+	margin: auto auto;
+}
+
+.pokeImage img{
+	height: 100%;
+	width : 100%;
+}
+
+.pokeID{
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

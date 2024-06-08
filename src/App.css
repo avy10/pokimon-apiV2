@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+	height: 0px;
+	/* this property hides the horizontal scroll bar, see the width of scroll bar is 0 so u cant see the horizontal scroll bar */
+	width: 0px; 
+	/* this property hides the vertical scroll bar, see the height of scroll bar is 0 so u cant see the vertical scroll bar */
+}
+
+.avyMain {
+	/* border: 3px solid aqua; */
+	position: absolute;
+	top: 12vh;
+	left: 12vw;
+	right: 12vw;
+	
+	width: 76vw;
+	/* height: max-content; */
+	height: 80vh;
+	/* if I left height as max-content, our scrollbar will not have the thumb to scroll
+	the scrollbar track will be present
+	but the thumb wont be because there is nothing to scroll
+	however, the page will still scroll, because the height of avyMain will keep growing as content adds
+	*/
+	margin-bottom: 2rem;
+	padding: 1rem;
+	color: white;
+	overflow: scroll;
+}
+
+.avyMain::-webkit-scrollbar {
+	height: 0px;
+	width: 4px;
+	border-radius: 25px;
+}
+
+.avyMain::-webkit-scrollbar-track {
+	background: white;
+}
+
+.avyMain::-webkit-scrollbar-thumb {
+	background: aqua;
+	border-radius: 30px;
+}
+
+.avyMain::-webkit-scrollbar-thumb:hover {
+	background: #bbb;
+}
+
+.loadMoreBTNDivva{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.loadMoreBTN{
+	background-color: aqua;
+	font-size: 1.15rem;
+	padding: 5px;
+	transition: transform 0.3s ease-in-out;
+	font-weight: bold;
+	/* position: absolute;
+	left: 50%;
+	bottom: 1%; */
+	/* right: 40%; */
+	/* bottom: 5%; */
+}
+
+
+.loadMoreBTN:hover{
+	transform: scale(1.03);
+	transition: transform 0.5s ease-in-out;
+}
+.loadMoreBTN:active{
+	transform: scale(0.9);
+	transition: transform 0.5s ease-in-out;
+}

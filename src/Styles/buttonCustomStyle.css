@@ -1,0 +1,141 @@
+
+button {
+	height: 35px;
+	width: 150px;
+	border: none;
+	transition: transform 0.3s ease-in-out;
+ 
+/*ensures that when click is released on the button, it does not gets its scale-css reset
+	when we click, the scale changes to 0.9 smoothly and, upon click release, scale resets back to 1*/
+}
+.knowMoreBTN button, .knowMoreBTN span{
+   border-radius: 5px 5px 0px 0px ;
+}
+
+button:active{
+	transform: scale(0.9);
+
+		transition: transform 0.3s ease-in-out;
+
+}
+
+:active, :hover, :focus {
+  outline: 0!important;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto; height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+	min-height: 35px;
+}
+  .btn span {         
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	/* letter-spacing: 2px; */
+	/* text-transform: uppercase; */
+	top: 0; left: 0;
+	width: 100%;
+	padding: 10px 20px;
+	transition: 0.3s;
+	min-height: 35px;
+    
+  }
+
+.btn-4 span {
+  color: rgb(28, 31, 30);
+  /* background-color: rgb(245,245,245); */
+}
+.btn-4 span:hover {
+  color: rgb(54, 56, 55);
+   /* border-radius: 5px; */
+
+}
+.btn-4::before,
+.btn-4::after {
+  width: 15%; height: 2px;
+  background-color: rgb(54, 56, 55);
+  z-index: 2;
+   /* border-radius: 5px; */
+
+  
+}
+
+.btn.hover-border-7::before,
+.btn.hover-border-7::after {
+  bottom: 0;
+  transition: width 0.2s 0.35s ease-out;
+   /* border-radius: 5px; */
+
+}
+.btn.hover-border-7::before {
+  right: 50%;
+  
+}
+.btn.hover-border-7::after {
+  left: 50%;
+   /* border-radius: 5px; */
+
+  
+}
+.btn.hover-border-7:hover::before,
+.btn.hover-border-7:hover::after {
+  width: 50%;
+  transition: width 0.2s ease-in;   
+   /* border-radius: 5px; */
+
+}
+.btn.hover-border-7 span::before{
+ border-radius: 5px 0px 0px 0px;
+  
+}
+.btn.hover-border-7 span::after {
+ border-radius: 0px 5px 0px 0px;
+  
+}
+.btn.hover-border-7 span::before,
+.btn.hover-border-7 span::after {
+  width: 0%; height: 0%;
+  background: transparent;
+  opacity: 0;
+  z-index: 2;
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s 0.35s;
+  
+
+  
+}
+.btn.hover-border-7 span::before {
+  bottom: 0; left: 0;
+  border-left: 2px solid rgb(54, 56, 55);
+  border-top: 2px solid rgb(54, 56, 55);
+   /* border-radius: 5px; */
+
+}
+.btn.hover-border-7 span::after {
+  bottom: 0; right: 0;
+  border-right: 2px solid rgb(54, 56, 55);
+  border-top: 2px solid rgb(54, 56, 55);
+   /* border-radius: 5px; */
+
+}
+.btn.hover-border-7 span:hover::before,
+.btn.hover-border-7 span:hover::after {
+  width: 50%; height: 96%;
+  opacity: 1;
+  transition: height 0.2s 0.2s ease-in, width 0.2s 0.4s linear, opacity 0s 0.2s;   
+   /* border-radius: 5px; */
+
+}
+

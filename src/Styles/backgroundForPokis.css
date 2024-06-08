@@ -1,0 +1,79 @@
+.rock {
+	background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+
+} 
+.rockBTN {
+	background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+
+} 
+.ghost {
+	background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+
+} 
+.electric {
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+
+} 
+.electricBTN {
+	background-image: linear-gradient(15deg, #ff3800 0%, #edd563 100%);
+
+} 
+.bug {
+	background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+
+} 
+.bugBTN {
+	background-image: linear-gradient(169deg, #e3a250 0%, #eacda3 100%);
+} 
+.poison {
+	background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+
+} 
+.poisonBTN {
+	background-image: linear-gradient(295deg, #e3a5f7 0%, #e958a2 100%);
+} 
+.normal {
+	background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+
+} 
+.normalBTN {
+	background-image: linear-gradient(193deg, #dbefe9 0%, #f9f9f9 100%);
+
+} 
+.fairy {
+	background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+
+} 
+.fairyBTN {
+	background-image: linear-gradient(238deg, #ff9a9e 0%, #e56ebf 99%, #f74ec1 100%);
+} 
+.fire {
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+} 
+.fireBTN {
+	background-image: linear-gradient(281deg, #f9cc3f 0%, #eb872f 100%);
+} 
+.grass {
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+
+} 
+.grassBTN{
+	background-image: linear-gradient(346deg, #83f781 0%, #41e157 100%);
+
+}
+.water {
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+
+} 
+.waterBTN {
+	background-image: linear-gradient(334deg, #53dde5 0%, #4382d9 100%);
+} 
+.ground {
+	background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+
+} 
+.groundBTN {
+	background-image: linear-gradient(99deg, #772f1a 0%, #e58628 88%);
+
+} 
